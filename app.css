@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 10rem;
+  background: url(https://images.unsplash.com/photo-1707274626870-c8a975b24fe8?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 18px;
+  width: 250px;
+  border-radius: 6px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+  animation: fade-in 1s forwards, rotate 2s infinite linear;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
